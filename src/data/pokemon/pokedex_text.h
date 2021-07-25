@@ -92,7 +92,7 @@ const u8 gBurrobitPokedexText[] = _(
     "strong winds, this Pokemon will dig holes\n"
     "to prevent itself from being blown away.");
 
-const u8 gBunnaetherPokedexText[] = _(
+const u8 gRabbitatePokedexText[] = _(
     "Pokemon will whip up small dust storms\n" 
     "to protect itself from prowling Bird\n"
     "Pokemon.");
@@ -141,11 +141,11 @@ const u8 gCannekoPokedexText[] = _(
     "it often uses its heavy cannon to clear\n"
     "the shortest route to its destination.");
 
-const u8 gPikachuPokedexText[] = _(
-    "It stores electricity in the electric sacs\n"
-    "on its cheeks. When it releases pent-up\n"
-    "energy in a burst, the electric power is\n"
-    "equal to a lightning bolt.");
+const u8 gPikashPokedexText[] = _(
+	"Its ancestors would constantly breed with\n"
+	"causing their offspring to have mass \n"
+	"genetic mutations. Its desire to go fast is\n"
+	"hampered by its hatred of exercise.");
 
 const u8 gRaichuPokedexText[] = _(
     "If it stores too much electricity, its\n"
@@ -219,17 +219,17 @@ const u8 gVulpixPokedexText[] = _(
     "before evolution, its six tails grow hot \n"
     "as if on fire.");
 
-const u8 gNinetalesPokedexText[] = _(
-    "It has long been said that each of the\n"
-    "nine tails embody an enchanted power.\n"
-    "A long-lived Ninetales will have fur that\n"
-    "shines like gold.");
+const u8 gArgigamiPokedexText[] = _(
+	"With their weak bodies and short tempers,\n"
+	"Argigami often end up squabbling, then\n"
+	"easily knocked over. Air resistance stops \n"
+	"them from being hurt too badly.");
 
-const u8 gJigglypuffPokedexText[] = _(
-    "Nothing can avoid falling asleep hearing a\n"
-    "Jigglypuff's song. The sound waves of its\n"
-    "singing voice match the brain waves of\n"
-    "someone in a deep sleep.");
+const u8 gDisputrawPokedexText[] = _(
+	"Disputraw survive harsh beatings by being\n"
+	"flexible and easy to trample, like a tree in a \n"
+	"hurricane. They pretend to be stronger \n"
+	"Pokémon to scare off attackers.");
 
 const u8 gWigglytuffPokedexText[] = _(
     "Its fur is the ultimate in luxuriousness.\n"
@@ -237,17 +237,23 @@ const u8 gWigglytuffPokedexText[] = _(
     "divine. Its body expands seemingly without\n"
     "end when it inhales.");
 
-const u8 gZubatPokedexText[] = _(
-    "While living in pitch-black caverns, their\n"
-    "eyes gradually grew shut and deprived\n"
-    "them of vision. They use ultrasonic waves\n"
-    "to detect obstacles.");
+const u8 gSpirickPokedexText[] = _(
+	"Spirick and Smogarette are the leading\n"
+	"causes of Lung Cancer in Vidioh. It is not\n"
+	"advised to possess them as a Pokemon\n"
+	"without proper care.");
 
-const u8 gGolbatPokedexText[] = _(
-    "Its fangs easily puncture even thick\n"
-    "animal hide. It loves to feast on the blood\n"
-    "of people and Pokémon. It flits about in\n"
-    "darkness and strikes from behind.");
+const u8 gPlaghostPokedexText[] = _(
+	"Up until recently, trainers of Plaghost had\n"
+	"to use multiple herbs on themselves to prevent\n"
+	"intense illness. Nowadays, they just stop\n"
+	"breathing so close to the damn thing.");
+	
+const u8 gCoviledPokedexText[] = _(
+	"Coviled emanate psychokinetic toxins that\n"
+	"make humans intensely terrified of being\n"
+	"close to one another. Some dumbass released one\n"\
+	"once and fucked up the entire economy.");
 
 const u8 gOddishPokedexText[] = _(
     "This Pokémon grows by absorbing moonlight.\n"
@@ -267,17 +273,17 @@ const u8 gVileplumePokedexText[] = _(
     "with the powder as it walks. The pollen is\n"
     "highly toxic and causes paralysis.");
 
-const u8 gParasPokedexText[] = _(
-    "A Paras has parasitic tochukaso\n"
-    "mushrooms growing on its back. They grow\n"
-    "by drawing nutrients from the host. They\n"
-    "are valued as a medicine for long life.");
+const u8 gCurswormPokedexText[] = _(
+	"Cursworm are often placed on fishing hooks\n"
+	"to attract wild Pokemon. Despite possibilities\n"
+	"of being eaten, it doesn't mind, thriving on\n"
+	"any and all forms of attention.");
 
-const u8 gParasectPokedexText[] = _(
-    "Parasect are known to infest the roots of\n"
-    "large trees en masse and drain nutrients.\n"
-    "When an infested tree dies, they move\n"
-    "onto another tree all at once.");
+const u8 gWindowormPokedexText[] = _(
+	"ABLE TO RAPIDLY CREATE ALL SORTS OF\n"
+	"IMAGES IN ITSELF, ITS A COMPULSIVE LIAR, \n"
+	"GONE WRONG, AND GONE SEXUAL.\n"
+	"WINDOWORM WILL FUCK YOUR MOM!");
 
 const u8 gVenonatPokedexText[] = _(
     "Its coat of thin, stiff hair that covers\n"
@@ -285,17 +291,17 @@ const u8 gVenonatPokedexText[] = _(
     "for protection. Its large eyes never fail\n"
     "to spot even miniscule prey.");
 
-const u8 gVenomothPokedexText[] = _(
-    "Venomoth are nocturnal--they are only\n"
-    "active at night. Their favorite prey are\n"
-    "insects that gather around streetlights,\n"
-    "attracted by the light in the darkness.");
+const u8 gBinyotakePokedexText[] = _(
+	"Artificially made by some guy named\n"
+	"Enzo, this Pokemon has made several\n"
+	"other appearances in other dimensions.\n"
+	"They're terrible at Connect Four.");
 
-const u8 gDiglettPokedexText[] = _(
-    "Diglett are raised in most farms.\n"
-    "The reason is simple--wherever they\n"
-    "burrow, the soil is left perfectly tilled\n"
-    "for growing delicious crops.");
+const u8 gSvampelettPokedexText[] = _(
+	"Despite mostly living in faraway snowy\n"
+	"forest, Svampelett are extremely close to\n"
+	"Binyotake, often getting along well with them.\n"
+	"Every April, they gather and speak in tongues.");
 
 const u8 gDugtrioPokedexText[] = _(
     "Because the triplets originally split from\n"
@@ -339,17 +345,17 @@ const u8 gPrimeapePokedexText[] = _(
     "its muscles are made stronger. But it\n"
     "also becomes much less intelligent.");
 
-const u8 gGrowlithePokedexText[] = _(
-    "Its superb sense of smell ensures that\n"
-    "this Pokémon won't forget any scent,\n"
-    "no matter what. It uses its sense of smell\n"
-    "to detect the emotions of others.");
+const u8 gSkelipedePokedexText[] = _(
+	"Skelipede can send shivers down a grown\n"
+	"man's spine with just one call. Though their\n"
+	"screams are shrill and terrifying, their sole\n"
+	"intention is to socialize with humans.");
 
-const u8 gArcaninePokedexText[] = _(
-    "This fleet-footed Pokémon is said to run\n"
-    "over 6,200 miles in a single day and night.\n"
-    "The fire that blazes wildly within its body\n"
-    "is its source of power.");
+const u8 gCoffinsectPokedexText[] = _(
+	"Due to feeling neglect as a tiny Skelipede,\n"
+	"Coffinsect hold a grudge against most of\n"
+	"humanity and celebrate when one dies,\n"\
+	"dancing around and feasting on the corpse.");
 
 const u8 gPoliwagPokedexText[] = _(
     "It is possible to see this Pokémon's spiral\n"
@@ -363,11 +369,11 @@ const u8 gPoliwhirlPokedexText[] = _(
     "covering, it can easily slip and slide out\n"
     "of the clutches of any enemy in battle.");
 
-const u8 gPoliwrathPokedexText[] = _(
-    "Its highly developed muscles never grow\n"
-    "fatigued, however much it exercises.\n"
-    "This Pokémon can swim back and forth\n"
-    "across the Pacific Ocean without effort.");
+const u8 gTelecoPokedexText[] = _(
+	"Teleco were born from abandoned retro\n"
+	"television sets. Despite their obsolescence,\n"
+	"they seem quite happy knowing they can\n"
+	"evolve.");
 
 const u8 gAbraPokedexText[] = _(
     "A Pokémon that sleeps 18 hours a day.\n"
@@ -843,17 +849,9 @@ const u8 gKabutopsPokedexText[] = _(
     "being a water dweller to living on land as\n"
     "evident from changes in its gills and legs.");
 
-const u8 gAerodactylPokedexText[] = _(
-    "Aerodactyl is a Pokémon from the age\n"
-    "of dinosaurs. It was regenerated from DNA\n"
-    "extracted from amber. It is imagined to\n"
-    "have been the king of the skies.");
+const u8 gHalfistPokedexText[] = _("Placeholder");
 
-const u8 gSnorlaxPokedexText[] = _(
-    "Snorlax's typical day consists of nothing\n"
-    "more than eating and sleeping. It is such\n"
-    "a docile Pokémon that there are children\n"
-    "who use its big belly as a place to play.");
+const u8 gInevitonPokedexText[] = _("Placeholder");
 
 const u8 gArticunoPokedexText[] = _(
     "Articuno is a legendary bird Pokémon that\n"

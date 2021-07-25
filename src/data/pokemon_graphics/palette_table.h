@@ -1,3 +1,20 @@
+/*
+edited on 6/29 
+by Ryan
+Discord: ryanpokecoder#1096
+
+- removed:
+bunnaether, cnideter, tidaria, artifishal, seagirl
+doomermaid, bongsai, reefir
+
++ added :
+krabadict, ketagene, shorts, pants, cacobelle, delphier
+entesagt, teleco, esakit, hellmo, contrip, plungement
+accidrop, rabbitate, bubozoa, chrysapod, locksmian 
+
+> moved :
+forekaye, skelipede, coffinsect, terracal, digfloppa
+*/
 const struct CompressedSpritePalette gMonPaletteTable[] =
 {
     SPECIES_PAL(NONE, gMonPalette_CircledQuestionMark),
@@ -16,7 +33,7 @@ const struct CompressedSpritePalette gMonPaletteTable[] =
     SPECIES_PAL(ACTURUNK, gMonPalette_Acturunk),
     SPECIES_PAL(DRAMASPIRE, gMonPalette_Dramaspire),
     SPECIES_PAL(BURROBIT, gMonPalette_Burrobit),
-    SPECIES_PAL(BUNNAETHER, gMonPalette_Bunnaether),
+    SPECIES_PAL(RABBITATE, gMonPalette_Rabbitate),
     SPECIES_PAL(CUCKOOB, gMonPalette_Cuckoob),
     SPECIES_PAL(TWIDDIES, gMonPalette_Twiddies),
     SPECIES_PAL(AIRIOLA, gMonPalette_Airiola),
@@ -36,35 +53,40 @@ const struct CompressedSpritePalette gMonPaletteTable[] =
     SPECIES_PAL(CALIKEY, gMonPalette_Calikey),
     SPECIES_PAL(SPOOKIDS, gMonPalette_Spookids),
     SPECIES_PAL(TOGETERROR, gMonPalette_Togeterror),
-    SPECIES_PAL(CNIDETER, gMonPalette_Cnideter),
-    SPECIES_PAL(TIDARIA, gMonPalette_Tidaria),
+    SPECIES_PAL(BUBOZOA, gMonPalette_Bubozoa),
+    SPECIES_PAL(CHRYSAPOD, gMonPalette_Chrysapod),
     SPECIES_PAL(ARGIGAMI, gMonPalette_Argigami),
     SPECIES_PAL(DISPUTRAW, gMonPalette_Disputraw),
     SPECIES_PAL(SPIRICK, gMonPalette_Spirick),
     SPECIES_PAL(PLAGHOST, gMonPalette_Plaghost),
     SPECIES_PAL(COVILED, gMonPalette_Coviled),
-    SPECIES_PAL(ODDISH, gMonPalette_Oddish),
-    SPECIES_PAL(GLOOM, gMonPalette_Gloom),
-    SPECIES_PAL(VILEPLUME, gMonPalette_Vileplume),
+    SPECIES_PAL(CONTRIP, gMonPalette_Contrip),
+    SPECIES_PAL(PLUNGEMENT, gMonPalette_Plungement),
+    SPECIES_PAL(ACCIDROP, gMonPalette_Accidrop),
     SPECIES_PAL(CURSWORM, gMonPalette_Cursworm),
     SPECIES_PAL(WINDOWORM, gMonPalette_Windoworm),
-    SPECIES_PAL(ARTIFISHAL, gMonPalette_Artifishal),
+    SPECIES_PAL(LOCKSMIAN, gMonPalette_Locksmian),
     SPECIES_PAL(BINYOTAKE, gMonPalette_Binyotake),
     SPECIES_PAL(SVAMPELETT, gMonPalette_Svampelett),
-    SPECIES_PAL(DUGTRIO, gMonPalette_Dugtrio),
-    SPECIES_PAL(SEAGIRL, gMonPalette_Seagirl),
-    SPECIES_PAL(DOOMERMAID, gMonPalette_Doomermaid),
-    SPECIES_PAL(BONGSAI, gMonPalette_Bongsai),
-    SPECIES_PAL(REEFIR, gMonPalette_Reefir),
+    SPECIES_PAL(KRABADICT, gMonPalette_Krabadict),
+	SPECIES_PAL(KETAGENE, gMonPalette_Ketagene),
+	SPECIES_PAL(SHORTS, gMonPalette_Shorts),
+	SPECIES_PAL(PANTS, gMonPalette_Pants),
+	SPECIES_PAL(CACOBELLE, gMonPalette_Cacobelle),
+	SPECIES_PAL(DELPHIER, gMonPalette_Delphier),
+	SPECIES_PAL(ENTESAGT, gMonPalette_Entesagt),
+	SPECIES_PAL(SKELIPEDE, gMonPalette_Skelipede),
+	SPECIES_PAL(COFFINSECT, gMonPalette_Coffinsect),
+	SPECIES_PAL(TERRACAL, gMonPalette_Terracal),
+	SPECIES_PAL(DIGFLOPPA, gMonPalette_Digfloppa),
+	SPECIES_PAL(TELECO, gMonPalette_Teleco),
+	SPECIES_PAL(ESAKIT, gMonPalette_Esakit),
+	SPECIES_PAL(FOREKAYE, gMonPalette_Forekaye),
+	SPECIES_PAL(HELLMO, gMonPalette_Hellmo),
     SPECIES_PAL(RANDOMAIL, gMonPalette_Randomail),
     SPECIES_PAL(DEDLIVERY, gMonPalette_Dedlivery),
-    SPECIES_PAL(SKELIPEDE, gMonPalette_Skelipede),
-    SPECIES_PAL(COFFINSECT, gMonPalette_Coffinsect),
-    SPECIES_PAL(TERRACAL, gMonPalette_Terracal),
-    SPECIES_PAL(DIGFLOPPA, gMonPalette_Digfloppa),
     SPECIES_PAL(SIXTEEVY, gMonPalette_Sixteevy),
     SPECIES_PAL(TENEIDEEPI, gMonPalette_Teneideepi),
-    SPECIES_PAL(FOREKAYE, gMonPalette_Forekaye),
     SPECIES_PAL(MLADIBUG, gMonPalette_Mladibug),
     SPECIES_PAL(FLEXNAKE, gMonPalette_Flexnake),
     SPECIES_PAL(FLEXAIL, gMonPalette_Flexail),
@@ -142,8 +164,8 @@ const struct CompressedSpritePalette gMonPaletteTable[] =
     SPECIES_PAL(MIKOMODO, gMonPalette_Mikomodo),
     SPECIES_PAL(GOJIREC, gMonPalette_Gojirec),
     SPECIES_PAL(EEKORONE, gMonPalette_Eekorone),
-    SPECIES_PAL(AERODACTYL, gMonPalette_Aerodactyl),
-    SPECIES_PAL(SNORLAX, gMonPalette_Snorlax),
+    SPECIES_PAL(HALFIST, gMonPalette_Halfist),
+    SPECIES_PAL(INEVITON, gMonPalette_Ineviton),
     SPECIES_PAL(ARTICUNO, gMonPalette_Articuno),
     SPECIES_PAL(ZAPDOS, gMonPalette_Zapdos),
     SPECIES_PAL(MOLTRES, gMonPalette_Moltres),

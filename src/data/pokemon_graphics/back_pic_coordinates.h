@@ -753,15 +753,15 @@ const struct MonCoords gMonBackPicCoords[] =
         .y_offset = 8,
     },
 
-    [SPECIES_AERODACTYL] =
+    [SPECIES_HALFIST] =
     {
-        .size = 0x86,
-        .y_offset = 10,
+        .size = 0x87,
+        .y_offset = 8,
     },
-    [SPECIES_SNORLAX] =
+    [SPECIES_INEVITON] =
     {
-        .size = 0x85,
-        .y_offset = 13,
+        .size = 0x87,
+        .y_offset = 8,
     },
     [SPECIES_ARTICUNO] =
     {

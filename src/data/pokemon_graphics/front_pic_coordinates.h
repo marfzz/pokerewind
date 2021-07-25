@@ -1,3 +1,20 @@
+/*
+edited on 6/29 
+by Ryan
+Discord: ryanpokecoder#1096
+
+- removed:
+bunnaether, cnideter, tidaria, artifishal, seagirl
+doomermaid, bongsai, reefir
+
++ added :
+krabadict, ketagene, shorts, pants, cacobelle, delphier
+entesagt, teleco, esakit, hellmo, contrip, plungement
+accidrop, rabbitate, bubozoa, chrysapod, locksmian 
+
+> moved :
+forekaye, skelipede, coffinsect, terracal, digfloppa
+*/
 const struct MonCoords gMonFrontPicCoords[] =
 {
     [SPECIES_NONE] =
@@ -80,7 +97,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x45,
         .y_offset = 3,
     },
-    [SPECIES_BUNNAETHER] =
+    [SPECIES_RABBITATE] =
     {
         .size = 0x45,
         .y_offset = 7,
@@ -205,12 +222,12 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x45,
         .y_offset = 0,
     },
-    [SPECIES_CNIDETER] =
+    [SPECIES_BUBOZOA] =
     {
         .size = 0x45,
         .y_offset = 0,
     },
-    [SPECIES_TIDARIA] =
+    [SPECIES_CHRYSAPOD] =
     {
         .size = 0x45,
         .y_offset = 0,
@@ -245,17 +262,17 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x45,
         .y_offset = 0,
     },
-    [SPECIES_ODDISH] =
+    [SPECIES_CONTRIP] =
     {
         .size = 0x45,
         .y_offset = 14,
     },
-    [SPECIES_GLOOM] =
+    [SPECIES_PLUNGEMENT] =
     {
         .size = 0x66,
         .y_offset = 11,
     },
-    [SPECIES_VILEPLUME] =
+    [SPECIES_ACCIDROP] =
     {
         .size = 0x77,
         .y_offset = 7,
@@ -272,7 +289,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .y_offset = 0,
     },
 
-    [SPECIES_ARTIFISHAL] =
+    [SPECIES_LOCKSMIAN] =
     {
         .size = 0x45,
         .y_offset = 0,
@@ -289,35 +306,96 @@ const struct MonCoords gMonFrontPicCoords[] =
         .y_offset = 0,
     },
 
-    [SPECIES_DUGTRIO] =
+    [SPECIES_KRABADICT] =
     {
         .size = 0x75,
         .y_offset = 11,
     },
-    [SPECIES_SEAGIRL] =
-    {
-        .size = 0x45,
-        .y_offset = 0,
-    },
 
-    [SPECIES_DOOMERMAID] =
+    [SPECIES_KETAGENE] =
     {
-        .size = 0x45,
-        .y_offset = 0,
+        .size = 0x75,
+        .y_offset = 11,
     },
-
-    [SPECIES_BONGSAI] =
+	
+    [SPECIES_SHORTS] =
     {
-        .size = 0x45,
-        .y_offset = 0,
+        .size = 0x75,
+        .y_offset = 11,
     },
-
-    [SPECIES_REEFIR] =
+	
+    [SPECIES_PANTS] =
     {
-        .size = 0x45,
-        .y_offset = 0,
+        .size = 0x75,
+        .y_offset = 11,
     },
-
+	
+    [SPECIES_CACOBELLE] =
+    {
+        .size = 0x75,
+        .y_offset = 11,
+    },
+	
+    [SPECIES_DELPHIER] =
+    {
+        .size = 0x75,
+        .y_offset = 11,
+    },
+	
+    [SPECIES_ENTESAGT] =
+    {
+        .size = 0x75,
+        .y_offset = 11,
+    },
+	
+    [SPECIES_SKELIPEDE] =
+    {
+        .size = 0x75,
+        .y_offset = 11,
+    },
+	
+    [SPECIES_COFFINSECT] =
+    {
+        .size = 0x75,
+        .y_offset = 11,
+    },
+	
+    [SPECIES_TERRACAL] =
+    {
+        .size = 0x75,
+        .y_offset = 11,
+    },
+	
+    [SPECIES_DIGFLOPPA] =
+    {
+        .size = 0x75,
+        .y_offset = 11,
+    },
+	
+    [SPECIES_TELECO] =
+    {
+        .size = 0x75,
+        .y_offset = 11,
+    },
+	
+    [SPECIES_ESAKIT] =
+    {
+        .size = 0x75,
+        .y_offset = 11,
+    },
+	
+    [SPECIES_FOREKAYE] =
+    {
+        .size = 0x75,
+        .y_offset = 11,
+    },
+	
+    [SPECIES_HELLMO] =
+    {
+        .size = 0x75,
+        .y_offset = 11,
+    },
+	
     [SPECIES_RANDOMAIL] =
     {
         .size = 0x45,
@@ -330,30 +408,6 @@ const struct MonCoords gMonFrontPicCoords[] =
         .y_offset = 0,
     },
 
-    [SPECIES_SKELIPEDE] =
-    {
-        .size = 0x45,
-        .y_offset = 0,
-    },
-
-    [SPECIES_COFFINSECT] =
-    {
-        .size = 0x45,
-        .y_offset = 0,
-    },
-
-    [SPECIES_TERRACAL] =
-    {
-        .size = 0x45,
-        .y_offset = 0,
-    },
-
-    [SPECIES_DIGFLOPPA] =
-    {
-        .size = 0x45,
-        .y_offset = 0,
-    },
-
     [SPECIES_SIXTEEVY] =
     {
         .size = 0x45,
@@ -361,12 +415,6 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
 
     [SPECIES_TENEIDEEPI] =
-    {
-        .size = 0x45,
-        .y_offset = 0,
-    },
-
-    [SPECIES_FOREKAYE] =
     {
         .size = 0x45,
         .y_offset = 0,
@@ -828,44 +876,44 @@ const struct MonCoords gMonFrontPicCoords[] =
         .y_offset = 0,
     },
 
-    [SPECIES_AERODACTYL] =
+    [SPECIES_HALFIST] =
     {
-        .size = 0x88,
-        .y_offset = 4,
+        .size = 0x45,
+        .y_offset = 0,
     },
-    [SPECIES_SNORLAX] =
+    [SPECIES_INEVITON] =
     {
-        .size = 0x87,
-        .y_offset = 1,
+        .size = 0x45,
+        .y_offset = 0,
     },
     [SPECIES_ARTICUNO] =
     {
-        .size = 0x88,
-        .y_offset = 2,
+        .size = 0x45,
+        .y_offset = 0,
     },
     [SPECIES_ZAPDOS] =
     {
-        .size = 0x87,
-        .y_offset = 4,
+        .size = 0x45,
+        .y_offset = 0,
     },
     [SPECIES_MOLTRES] =
     {
-        .size = 0x88,
-        .y_offset = 1,
+        .size = 0x45,
+        .y_offset = 0,
     },
     [SPECIES_DRATINI] =
     {
-        .size = 0x75,
-        .y_offset = 9,
+        .size = 0x45,
+        .y_offset = 0,
     },
     [SPECIES_DRAGONAIR] =
     {
-        .size = 0x87,
-        .y_offset = 1,
+        .size = 0x45,
+        .y_offset = 0,
     },
     [SPECIES_DRAGONITE] =
     {
-        .size = 0x88,
+        .size = 0x45,
         .y_offset = 0,
     },
     [SPECIES_MEWTWO] =

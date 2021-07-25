@@ -1,3 +1,20 @@
+/*
+edited on 6/29 
+by Ryan
+Discord: ryanpokecoder#1096
+
+- removed:
+bunnaether, cnideter, tidaria, artifishal, seagirl
+doomermaid, bongsai, reefir
+
++ added :
+krabadict, ketagene, shorts, pants, cacobelle, delphier
+entesagt, teleco, esakit, hellmo, contrip, plungement
+accidrop, rabbitate, bubozoa, chrysapod, locksmian 
+
+> moved :
+forekaye, skelipede, coffinsect, terracal, digfloppa
+*/
 const struct CompressedSpriteSheet gMonBackPicTable[] =
 {
     SPECIES_SPRITE(NONE, gMonBackPic_CircledQuestionMark),
@@ -16,7 +33,7 @@ const struct CompressedSpriteSheet gMonBackPicTable[] =
     SPECIES_SPRITE(ACTURUNK, gMonBackPic_Acturunk),
     SPECIES_SPRITE(DRAMASPIRE, gMonBackPic_Dramaspire),
     SPECIES_SPRITE(BURROBIT, gMonBackPic_Burrobit),
-    SPECIES_SPRITE(BUNNAETHER, gMonBackPic_Bunnaether),
+    SPECIES_SPRITE(RABBITATE, gMonBackPic_Rabbitate),
     SPECIES_SPRITE(CUCKOOB, gMonBackPic_Cuckoob),
     SPECIES_SPRITE(TWIDDIES, gMonBackPic_Twiddies),
     SPECIES_SPRITE(AIRIOLA, gMonBackPic_Airiola),
@@ -36,35 +53,40 @@ const struct CompressedSpriteSheet gMonBackPicTable[] =
     SPECIES_SPRITE(CALIKEY, gMonBackPic_Calikey),
     SPECIES_SPRITE(SPOOKIDS, gMonBackPic_Spookids),
     SPECIES_SPRITE(TOGETERROR, gMonBackPic_Togeterror),
-    SPECIES_SPRITE(CNIDETER, gMonBackPic_Cnideter),
-    SPECIES_SPRITE(TIDARIA, gMonBackPic_Tidaria),
+    SPECIES_SPRITE(BUBOZOA, gMonBackPic_Bubozoa),
+    SPECIES_SPRITE(CHRYSAPOD, gMonBackPic_Chrysapod),
     SPECIES_SPRITE(ARGIGAMI, gMonBackPic_Argigami),
     SPECIES_SPRITE(DISPUTRAW, gMonBackPic_Disputraw),
     SPECIES_SPRITE(SPIRICK, gMonBackPic_Spirick),
     SPECIES_SPRITE(PLAGHOST, gMonBackPic_Plaghost),
     SPECIES_SPRITE(COVILED, gMonBackPic_Coviled),
-    SPECIES_SPRITE(ODDISH, gMonBackPic_Oddish),
-    SPECIES_SPRITE(GLOOM, gMonBackPic_Gloom),
-    SPECIES_SPRITE(VILEPLUME, gMonBackPic_Vileplume),
+    SPECIES_SPRITE(CONTRIP, gMonBackPic_Contrip),
+    SPECIES_SPRITE(PLUNGEMENT, gMonBackPic_Plungement),
+    SPECIES_SPRITE(ACCIDROP, gMonBackPic_Accidrop),
     SPECIES_SPRITE(CURSWORM, gMonBackPic_Cursworm),
     SPECIES_SPRITE(WINDOWORM, gMonBackPic_Windoworm),
-    SPECIES_SPRITE(ARTIFISHAL, gMonBackPic_Artifishal),
+    SPECIES_SPRITE(LOCKSMIAN, gMonBackPic_Locksmian ),
     SPECIES_SPRITE(BINYOTAKE, gMonBackPic_Binyotake),
     SPECIES_SPRITE(SVAMPELETT, gMonBackPic_Svampelett),
-    SPECIES_SPRITE(DUGTRIO, gMonBackPic_Dugtrio),
-    SPECIES_SPRITE(SEAGIRL, gMonBackPic_Seagirl),
-    SPECIES_SPRITE(DOOMERMAID, gMonBackPic_Doomermaid),
-    SPECIES_SPRITE(BONGSAI, gMonBackPic_Bongsai),
-    SPECIES_SPRITE(REEFIR, gMonBackPic_Reefir),
-    SPECIES_SPRITE(RANDOMAIL, gMonBackPic_Randomail),
-    SPECIES_SPRITE(DEDLIVERY, gMonBackPic_Dedlivery),
+    SPECIES_SPRITE(KRABADICT, gMonBackPic_Krabadict),
+    SPECIES_SPRITE(KETAGENE, gMonBackPic_Ketagene),
+	SPECIES_SPRITE(SHORTS, gMonBackPic_Shorts),
+    SPECIES_SPRITE(PANTS, gMonBackPic_Pants),
+	SPECIES_SPRITE(CACOBELLE, gMonBackPic_Cacobelle),
+    SPECIES_SPRITE(DELPHIER, gMonBackPic_Delphier),
+	SPECIES_SPRITE(ENTESAGT, gMonBackPic_Entesagt),
     SPECIES_SPRITE(SKELIPEDE, gMonBackPic_Skelipede),
     SPECIES_SPRITE(COFFINSECT, gMonBackPic_Coffinsect),
     SPECIES_SPRITE(TERRACAL, gMonBackPic_Terracal),
     SPECIES_SPRITE(DIGFLOPPA, gMonBackPic_Digfloppa),
+	SPECIES_SPRITE(TELECO, gMonBackPic_Teleco),
+    SPECIES_SPRITE(ESAKIT, gMonBackPic_Esakit),
+	SPECIES_SPRITE(FOREKAYE, gMonBackPic_Forekaye),
+    SPECIES_SPRITE(HELLMO, gMonBackPic_Hellmo),
+    SPECIES_SPRITE(RANDOMAIL, gMonBackPic_Randomail),
+    SPECIES_SPRITE(DEDLIVERY, gMonBackPic_Dedlivery),
     SPECIES_SPRITE(SIXTEEVY, gMonBackPic_Sixteevy),
     SPECIES_SPRITE(TENEIDEEPI, gMonBackPic_Teneideepi),
-    SPECIES_SPRITE(FOREKAYE, gMonBackPic_Forekaye),
     SPECIES_SPRITE(MLADIBUG, gMonBackPic_Mladibug),
     SPECIES_SPRITE(FLEXNAKE, gMonBackPic_Flexnake),
     SPECIES_SPRITE(FLEXAIL, gMonBackPic_Flexail),
@@ -142,8 +164,8 @@ const struct CompressedSpriteSheet gMonBackPicTable[] =
     SPECIES_SPRITE(MIKOMODO, gMonBackPic_Mikomodo),
     SPECIES_SPRITE(GOJIREC, gMonBackPic_Gojirec),
     SPECIES_SPRITE(EEKORONE, gMonBackPic_Eekorone),
-    SPECIES_SPRITE(AERODACTYL, gMonBackPic_Aerodactyl),
-    SPECIES_SPRITE(SNORLAX, gMonBackPic_Snorlax),
+    SPECIES_SPRITE(HALFIST, gMonBackPic_Halfist),
+    SPECIES_SPRITE(INEVITON, gMonBackPic_Ineviton),
     SPECIES_SPRITE(ARTICUNO, gMonBackPic_Articuno),
     SPECIES_SPRITE(ZAPDOS, gMonBackPic_Zapdos),
     SPECIES_SPRITE(MOLTRES, gMonBackPic_Moltres),

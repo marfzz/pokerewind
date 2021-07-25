@@ -1,3 +1,20 @@
+/*
+edited on 6/29 
+by Ryan
+Discord: ryanpokecoder#1096
+
+- removed:
+bunnaether, cnideter, tidaria, artifishal, seagirl
+doomermaid, bongsai, reefir
+
++ added :
+krabadict, ketagene, shorts, pants, cacobelle, delphier
+entesagt, teleco, esakit, hellmo, contrip, plungement
+accidrop, rabbitate, bubozoa, chrysapod, locksmian 
+
+> moved :
+forekaye, skelipede, coffinsect, terracal, digfloppa
+*/
 const struct CompressedSpritePalette gMonShinyPaletteTable[] =
 {
     SPECIES_SHINY_PAL(NONE, gMonShinyPalette_CircledQuestionMark),
@@ -16,7 +33,7 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[] =
     SPECIES_SHINY_PAL(ACTURUNK, gMonShinyPalette_Acturunk),
     SPECIES_SHINY_PAL(DRAMASPIRE, gMonShinyPalette_Dramaspire),
     SPECIES_SHINY_PAL(BURROBIT, gMonShinyPalette_Burrobit),
-    SPECIES_SHINY_PAL(BUNNAETHER, gMonShinyPalette_Bunnaether),
+    SPECIES_SHINY_PAL(RABBITATE, gMonShinyPalette_Rabbitate),
     SPECIES_SHINY_PAL(CUCKOOB, gMonShinyPalette_Cuckoob),
     SPECIES_SHINY_PAL(TWIDDIES, gMonShinyPalette_Twiddies),
     SPECIES_SHINY_PAL(AIRIOLA, gMonShinyPalette_Airiola),
@@ -36,35 +53,40 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[] =
     SPECIES_SHINY_PAL(CALIKEY, gMonShinyPalette_Calikey),
     SPECIES_SHINY_PAL(SPOOKIDS, gMonShinyPalette_Spookids),
     SPECIES_SHINY_PAL(TOGETERROR, gMonShinyPalette_Togeterror),
-    SPECIES_SHINY_PAL(CNIDETER, gMonShinyPalette_Cnideter),
-    SPECIES_SHINY_PAL(TIDARIA, gMonShinyPalette_Tidaria),
+    SPECIES_SHINY_PAL(BUBOZOA, gMonShinyPalette_Bubozoa),
+    SPECIES_SHINY_PAL(CHRYSAPOD, gMonShinyPalette_Chrysapod),
     SPECIES_SHINY_PAL(ARGIGAMI, gMonShinyPalette_Argigami),
     SPECIES_SHINY_PAL(DISPUTRAW, gMonShinyPalette_Disputraw),
     SPECIES_SHINY_PAL(SPIRICK, gMonShinyPalette_Spirick),
     SPECIES_SHINY_PAL(PLAGHOST, gMonShinyPalette_Plaghost),
     SPECIES_SHINY_PAL(COVILED, gMonShinyPalette_Coviled),
-    SPECIES_SHINY_PAL(ODDISH, gMonShinyPalette_Oddish),
-    SPECIES_SHINY_PAL(GLOOM, gMonShinyPalette_Gloom),
-    SPECIES_SHINY_PAL(VILEPLUME, gMonShinyPalette_Vileplume),
+    SPECIES_SHINY_PAL(CONTRIP, gMonShinyPalette_Contrip),
+    SPECIES_SHINY_PAL(PLUNGEMENT, gMonShinyPalette_Plungement),
+    SPECIES_SHINY_PAL(ACCIDROP, gMonShinyPalette_Accidrop),
     SPECIES_SHINY_PAL(CURSWORM, gMonShinyPalette_Cursworm),
     SPECIES_SHINY_PAL(WINDOWORM, gMonShinyPalette_Windoworm),
-    SPECIES_SHINY_PAL(ARTIFISHAL, gMonShinyPalette_Artifishal),
+    SPECIES_SHINY_PAL(LOCKSMIAN, gMonShinyPalette_Locksmian),
     SPECIES_SHINY_PAL(BINYOTAKE, gMonShinyPalette_Binyotake),
     SPECIES_SHINY_PAL(SVAMPELETT, gMonShinyPalette_Svampelett),
-    SPECIES_SHINY_PAL(DUGTRIO, gMonShinyPalette_Dugtrio),
-    SPECIES_SHINY_PAL(SEAGIRL, gMonShinyPalette_Seagirl),
-    SPECIES_SHINY_PAL(DOOMERMAID, gMonShinyPalette_Doomermaid),
-    SPECIES_SHINY_PAL(BONGSAI, gMonShinyPalette_Bongsai),
-    SPECIES_SHINY_PAL(REEFIR, gMonShinyPalette_Reefir),
-    SPECIES_SHINY_PAL(RANDOMAIL, gMonShinyPalette_Randomail),
-    SPECIES_SHINY_PAL(DEDLIVERY, gMonShinyPalette_Dedlivery),
-    SPECIES_SHINY_PAL(SKELIPEDE, gMonShinyPalette_Skelipede),
+	SPECIES_SHINY_PAL(KRABADICT, gMonShinyPalette_Krabadict),
+	SPECIES_SHINY_PAL(KETAGENE, gMonShinyPalette_Ketagene),
+	SPECIES_SHINY_PAL(SHORTS, gMonShinyPalette_Shorts),
+	SPECIES_SHINY_PAL(PANTS, gMonShinyPalette_Pants),
+	SPECIES_SHINY_PAL(CACOBELLE, gMonShinyPalette_Cacobelle),
+	SPECIES_SHINY_PAL(DELPHIER, gMonShinyPalette_Delphier),
+	SPECIES_SHINY_PAL(ENTESAGT, gMonShinyPalette_Entesagt),
+	SPECIES_SHINY_PAL(SKELIPEDE, gMonShinyPalette_Skelipede),
     SPECIES_SHINY_PAL(COFFINSECT, gMonShinyPalette_Coffinsect),
     SPECIES_SHINY_PAL(TERRACAL, gMonShinyPalette_Terracal),
     SPECIES_SHINY_PAL(DIGFLOPPA, gMonShinyPalette_Digfloppa),
+	SPECIES_SHINY_PAL(TELECO, gMonShinyPalette_Teleco),
+	SPECIES_SHINY_PAL(ESAKIT, gMonShinyPalette_Esakit),
+	SPECIES_SHINY_PAL(FOREKAYE, gMonShinyPalette_Forekaye),
+	SPECIES_SHINY_PAL(HELLMO, gMonShinyPalette_Hellmo),
+    SPECIES_SHINY_PAL(RANDOMAIL, gMonShinyPalette_Randomail),
+    SPECIES_SHINY_PAL(DEDLIVERY, gMonShinyPalette_Dedlivery),
     SPECIES_SHINY_PAL(SIXTEEVY, gMonShinyPalette_Sixteevy),
     SPECIES_SHINY_PAL(TENEIDEEPI, gMonShinyPalette_Teneideepi),
-    SPECIES_SHINY_PAL(FOREKAYE, gMonShinyPalette_Forekaye),
     SPECIES_SHINY_PAL(MLADIBUG, gMonShinyPalette_Mladibug),
     SPECIES_SHINY_PAL(FLEXNAKE, gMonShinyPalette_Flexnake),
     SPECIES_SHINY_PAL(FLEXAIL, gMonShinyPalette_Flexail),
@@ -142,8 +164,8 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[] =
     SPECIES_SHINY_PAL(MIKOMODO, gMonShinyPalette_Mikomodo),
     SPECIES_SHINY_PAL(GOJIREC, gMonShinyPalette_Gojirec),
     SPECIES_SHINY_PAL(EEKORONE, gMonShinyPalette_Eekorone),
-    SPECIES_SHINY_PAL(AERODACTYL, gMonShinyPalette_Aerodactyl),
-    SPECIES_SHINY_PAL(SNORLAX, gMonShinyPalette_Snorlax),
+    SPECIES_SHINY_PAL(HALFIST, gMonShinyPalette_Halfist),
+    SPECIES_SHINY_PAL(INEVITON, gMonShinyPalette_Ineviton),
     SPECIES_SHINY_PAL(ARTICUNO, gMonShinyPalette_Articuno),
     SPECIES_SHINY_PAL(ZAPDOS, gMonShinyPalette_Zapdos),
     SPECIES_SHINY_PAL(MOLTRES, gMonShinyPalette_Moltres),
